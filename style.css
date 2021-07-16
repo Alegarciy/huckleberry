@@ -11,14 +11,20 @@ body {
 
 /* Add styles here! */
 
+html {
+  font-size: 27px;
+}
+
 .max-width-wrapper {
-  width: max-content;
+  max-width: 1300px;
+  padding: 0 px;
+  margin: 0 auto;
 }
 
 .intro-chunk {
-  width: 50%;
-  font-size: 1.5rem;
-  margin: 64px 96px;
+  max-width: 600px;
+  font-size: 1.25rem;
+  margin: 64px 0px;
 }
 
 .intro-chunk strong {
@@ -27,5 +33,33 @@ body {
 
 .title {
   font-size: 2rem;
-  margin-bottom: 64px;
+  margin: 64px 0px;
+}
+
+.card {
+  margin: 64px 32px;
+  background-color: white;
+  padding: 16px 32px;
+  margin-left: -24px;
+  /* height: max-content; */
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+main {
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  background-color: hsl(0deg, 0%, 60%);
+  height: 100%;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  max-width: max-content;
+  padding: 32px 64px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+  margin-left: -64px;
+  margin-top: -8px;
+}
+
+.card p {
+  line-height: 1.4;
 }
