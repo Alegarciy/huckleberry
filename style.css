@@ -10,3 +10,22 @@ body {
 }
 
 /* Add styles here! */
+
+.max-width-wrapper {
+  width: max-content;
+}
+
+.intro-chunk {
+  width: 50%;
+  font-size: 1.5rem;
+  margin: 64px 96px;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 64px;
+}
