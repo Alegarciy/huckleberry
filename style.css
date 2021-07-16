@@ -17,7 +17,7 @@ html {
 
 .max-width-wrapper {
   max-width: 1300px;
-  padding: 0 px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
